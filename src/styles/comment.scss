@@ -1,0 +1,15 @@
+.comment {
+    border: 1px solid #00000010;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    .images {
+        display: flex;
+        gap: 20px;
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}

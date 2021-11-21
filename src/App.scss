@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import "./styles/variables.scss";
+
+body {
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.App {
+    justify-content: center;
+    color: #444444;
+    // min-height: 100vh;
+    * {
+        font-family: "Baloo 2", sans-serif;
+    }
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        margin-bottom: 0;
+    }
+
+    .btn {
+        background-color: $primary;
+        padding: 8px 15px;
+        text-align: center;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        // font-size: 1rem;
+        box-shadow: 0 0 5px #00000040;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        &:hover {
+            filter: brightness(0.9);
+            box-shadow: none;
+        }
+        &.delete {
+            background-color: $red;
+        }
+        &.dark {
+            background-color: #000;
+        }
+    }
+
+    .alertMsg {
+        text-align: center;
+        margin-top: 30px;
+        p {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 20px;
+        }
+        .divider {
+            height: 60px;
+            margin: 3rem auto;
+        }
+    }
+
+    .text-red {
+        color: $red !important;
+    }
+}

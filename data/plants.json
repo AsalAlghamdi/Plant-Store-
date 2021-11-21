@@ -1,0 +1,143 @@
+{
+   "plants": [
+        {
+            "id": 1,
+            "name": "Sansevieria",
+            "image": "/images/plants-img/Sansevieria-cover.jpg",
+            "price": 55,
+            "discount": 15,
+            "description": "Sansevieria is a historically recognized genus of flowering plants, native to Africa, notably Madagascar, and southern Asia, now included in the genus Dracaena on the basis of molecular phylogenetic studies."
+        },
+        {
+            "id": 2,
+            "name": "Botus",
+            "image": "/images/plants-img/Botus-cover.jpg",
+            "price": 40,
+            "discount": 20,
+            "description": "A perennial evergreen houseplant desired for it's glossy, green or variegated leaves on cascading stems.  It only grows 6-8 ft as a horizontal groundcover, but the trailing, climbing vines can grow as long as 40 ft.  This feature makes it well-suited for hanging baskets.  It is able to survive for long periods in low light. "
+        },
+        {
+            "id": 3,
+            "name": "Spathiphilium",
+            "image": "/images/plants-img/Spathiphilium-cover.jpg",
+            "price": 70,
+            "discount": 0,
+            "description": "With the graceful common name “peace lily”, Spathiphyllum is an easy care, low light houseplant. It also removes many toxins from indoor air including formaldehyde and ammonia."
+        }
+    ],
+    "getPlantsDetail": [
+        {
+            "id": 1,
+            "name": "Sansevieria",
+            "type": "Houseplants",
+            "light": "12-16",
+            "water": "2-3",
+            "price": 55,
+            "discount": 15,
+            "description": "Sansevieria is a historically recognized genus of flowering plants, native to Africa, notably Madagascar, and southern Asia, now included in the genus Dracaena on the basis of molecular phylogenetic studies.",
+            "images": [
+                "https://i0.wp.com/agriceg.com/wp-content/uploads/2020/09/101792530_1053843948346571_3439832310864674816_n.jpg",
+                "https://pbs.twimg.com/media/EheSrJ3XsAAeg-m.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Mm6_Xjr_0G4HHmpVXku8Bfei-otfrY049h0Xg8G4zSLs3Iz8T96BhiAEv9G6PNANb7I&usqp=CAU"
+            ],
+            "comments": [
+                {
+                    "name": "Kamal Osama",
+                    "comment": "Love it!!",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": [
+                        "/images/comments-img/Sansevieria1.jpg"
+                    ]
+                },
+                {
+                    "name": "Ahmad Salem",
+                    "comment": "So amazing plant and powerful",
+                    "time": "21 Aug 29 - 05:39",
+                    "images": []
+                },
+                {
+                    "name": "Hala Bilal",
+                    "comment": "It comes perfect with my room I like it, thank you so much",
+                    "time": "21 Des 6 - 12:00",
+                    "images": [
+                        "/images/comments-img/Sansevieria2.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Botus",
+            "type": "Houseplants",
+            "light": "8-13",
+            "water": "1-2",
+            "price": 40,
+            "discount": 20,
+            "description": "A perennial evergreen houseplant desired for it's glossy, green or variegated leaves on cascading stems.  It only grows 6-8 ft as a horizontal groundcover, but the trailing, climbing vines can grow as long as 40 ft.  This feature makes it well-suited for hanging baskets.  It is able to survive for long periods in low light. ",
+            "images": [
+                "https://nabaty.files.wordpress.com/2018/04/screenshot_2018-04-09-03-44-31.png",
+                "https://d15pr4d5dgcodk.cloudfront.net/eyJidWNrZXQiOiAiY2FyZS1wbGFudC1wcm9maWxlIiwgImtleSI6ICIyNzEyMC9FQkE2QUI3Qy0yOTQ5LTQzMDgtQTVENC01MTU3M0YyQUYyN0YucG5nIiwgImVkaXRzIjogeyJyb3RhdGUiOiBudWxsLCAicmVzaXplIjogeyJ3aWR0aCI6IDg2MCwgImZpdCI6ICJjb3ZlciIsICJoZWlnaHQiOiA4NjB9LCAidG9Gb3JtYXQiOiAianBlZyJ9fQ=="
+            ],
+            "comments": [
+                {
+                    "name": "Razan Qasim",
+                    "comment": "Very beautiful plant, I recommend to buy it",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": []                
+                },
+                {
+                    "name": "Eman Khalid",
+                    "comment": "Amazing !",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": [
+                        "/images/comments-img/Botus4.jpg",
+                        "/images/comments-img/Botus2.jpg"
+                    ]                
+                },
+                {
+                    "name": "Tahani Jameel",
+                    "comment": "It is really wonderful and beautiful, I like to add many plants inside my house, it adds a lot of life in the house",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": [
+                        "/images/comments-img/Botus1.jpg",
+                        "/images/comments-img/Botus3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Spathiphilium",
+            "type": "Houseplants",
+            "light": "20-24",
+            "water": "7",
+            "price": 70,
+            "discount": 0,
+            "description": "With the graceful common name “peace lily”, Spathiphyllum is an easy care, low light houseplant. It also removes many toxins from indoor air including formaldehyde and ammonia.",
+            "images": [
+                "https://www.jardineriaon.com/wp-content/uploads/2020/05/Spathiphylum-caracter%C3%ADsticas.jpg",
+                "https://i.ytimg.com/vi/urUYw5qm6wk/maxresdefault.jpg",
+                "https://www.jardineriaon.com/wp-content/uploads/2020/05/Flor-del-Spathiphylum.jpg"
+            ],
+            "comments": [
+                {
+                    "name": "Jamilah Helal",
+                    "comment": "The store is very nice and fast with delivery, I recommend everyone to buy",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": []
+                },
+                {
+                    "name": "Yusra Emam",
+                    "comment": "High quality and fast delivery, I really recommend everyone to buy, they are great",
+                    "time": "21 Oct 2 - 02:19",
+                    "images": []
+                }
+            ]
+        }
+    ],
+    "coupons": {
+        "coupon20": 20,
+        "coupon30": 30,
+        "coupon50": 50
+    }
+}

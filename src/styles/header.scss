@@ -1,0 +1,53 @@
+@import "./variables.scss";
+
+.header {
+    border-bottom: 1px solid $primary;
+    padding: 20px 0 10px 0;
+    .logo {
+        font-family: $f_title !important;
+        color: $primary;
+        font-size: 2.2rem;
+        img {
+            width: 50px;
+        }
+        * {
+            vertical-align: sub;
+        }
+    }
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        &> div {
+            display: flex;
+            align-items: baseline;
+            gap: 30px;
+        }
+        .cart {
+            color: $primary !important;
+            font-size: 1.4rem;
+            color: $primary;
+            vertical-align: middle;
+            position: relative;
+            .cart-items-number {
+                background-color: #444444;
+                color: #fff;
+                width: 15px;
+                height: 15px;
+                border-radius: 40px;
+                font-size: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: -7px;
+                top: 0;
+            }
+        }
+        a {
+            color: #444444 !important;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    }
+}

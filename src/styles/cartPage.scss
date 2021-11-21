@@ -1,0 +1,110 @@
+@import "./variables.scss";
+
+.item {
+    border: 1px solid #00000010;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .image {
+        display: inline-block;
+        border: 3px solid $primary;
+        padding: 3px;
+        height: fit-content;
+        img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            display: inline-block;
+        }
+    }
+    .name {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .price {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .old-price {
+        font-size: 0.9rem;
+        color: $red;
+        text-decoration: line-through;
+    }
+}
+.bill {
+    padding: 20px;
+    background-color: $primary;
+    color: #fff;
+    font-size: 1rem;
+    & > div:not(.coupon) {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .total {
+        padding-top: 10px;
+        font-weight: bold;
+        border-top: 1px solid #00000010;
+    }
+    .coupon {
+        margin-bottom: 20px;
+    }
+}
+.coupon-field {
+    background: #fff;
+    border-radius: 3px;
+    padding-left: 10px;
+    display: flex;
+    input {
+        outline: none;
+        border: none !important;
+        width: 70%;
+        &:focus,
+        &:hover {
+            border: none !important;
+            box-shadow: none !important;
+            outline: none;
+        }
+    }
+    button {
+        margin-left: auto;
+    }
+    & ~ .alert-msg {
+        opacity: 0.7;
+        padding-top: 2px;
+        .error,
+        .success {
+            display: none;
+        }
+    }
+    &.error-coupon {
+        box-shadow: 0 0 10px #a11c257d;
+        & ~ .alert-msg {
+            color: #a11c25;
+            opacity: 1;
+            .hint {
+                display: none;
+            }
+            .error {
+                display: block;
+            }
+        }
+    }
+    &.success-coupon {
+        box-shadow: 0 0 10px #247940b4;
+        & ~ .alert-msg {
+            color: #247940;
+            opacity: 1;
+            .hint,
+            .error {
+                display: none;
+            }
+            .success {
+                display: block;
+            }
+        }
+    }
+}
